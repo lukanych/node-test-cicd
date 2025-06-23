@@ -1,0 +1,29 @@
+{
+  "name": "node-test-cicd",
+  "version": "1.0.0",
+  "description": "Node.js project for testing CI/CD",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukanych/node-test-cicd.git"
+  },
+  "homepage": "https://github.com/lukanych/node-test-cicd#readme",
+  "bugs": {
+    "url": "https://github.com/lukanych/node-test-cicd/issues"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["nodejs", "testing", "cicd"],
+  "author": "Vasyl Lukanych",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
