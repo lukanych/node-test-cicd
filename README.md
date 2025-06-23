@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node.js CI/CD Test Project
 
 A simple Node.js project for testing CI/CD pipelines.
@@ -80,3 +81,7 @@ Features:
 1. Run `npm test` to verify all tests pass
 2. Run `npm start` to start the application
 3. Push to GitHub to trigger CI/CD pipeline
+=======
+# node-test-cicd
+Node.js project for testing CI/CD pipelines
+>>>>>>> c05be649d31da780af009316b6b7a38cf4042bfc
